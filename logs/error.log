@@ -1,0 +1,94 @@
+2022-04-29 01:32:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\yoji.massago\Documents\Claudemir\teste\webroot\index.php:40
+
+Request URL: /users/celindex
+
+
+2022-04-29 01:39:00 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\yoji.massago\Documents\Claudemir\teste\webroot\index.php:40
+
+Request URL: /pessoas/add
+Referer URL: http://localhost:8765/pessoas/add
+
+
+2022-04-29 01:41:06 error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\mobile.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\yoji.massago\Documents\Claudemir\teste\templates\Pessoas\mobile.php`
+- `C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\templates\Pessoas\mobile.php`
+ in C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\View\View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Pessoas\\mobile.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\yoji.massago\\Documents\\Claudemir\\teste\\templates\\',
+    1 => 'C:\\Users\\yoji.massago\\Documents\\Claudemir\\teste\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\View\View.php:766
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Controller\Controller.php:764
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Controller\Controller.php:548
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\yoji.massago\Documents\Claudemir\teste\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\yoji.massago\Documents\Claudemir\teste\webroot\index.php:40
+
+Request URL: /pessoas/mobile
+
+
